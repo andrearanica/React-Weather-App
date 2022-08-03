@@ -58,13 +58,13 @@ function App() {
         </div>
         <div className="bottom">
           <div className="feels">
-            { data.main ?  <p>Percepiti: { Math.round(data.main.feels_like - 273.5) }°C</p> : null }
+            { data.main ? <p>Percepiti: { Math.round(data.main.feels_like - 273.5) }°C</p> : null }
           </div>
           <div className="humidity">
-            { data.main ?  <p>Umidità: { data.main.humidity }%</p> : null }
+            { data.main ? <p>Umidità: { data.main.humidity }%</p> : null }
           </div>
           <div className="wind">
-            { data.wind ?  <p>Vento: { Math.round(data.wind.speed * 1.6) }kmh</p> : null }
+            { data.wind ? <p>Vento: { Math.round(data.wind.speed * 1.6) }kmh</p> : null }
           </div><br />
         </div>
         </center></div>

@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .App {
-  text-align: center;
   color: white;
   font-family: 'Poppins', sans-serif;
-  border: 2px solid white;
-  border-radius: 10px;
-  width: 450px;
-  margin-top: 45px;
 }
 
 .App-logo {
@@ -46,7 +41,8 @@
 }
 
 body {
-  background-image: url("./assets/wallpaper.jpg");
+  /*background-image: url("./assets/wallpaper.jpg");*/
+  background-color: cadetblue;
 }
 
 p {
@@ -57,9 +53,22 @@ p {
 .location {
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: -30px;
 }
 
 .temp {
   font-weight: bold;
   font-size: 35px;
+}
+
+.info {
+  padding: 20px;
+  color: cadetblue;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+img {
+  width: 70px;
 }
